@@ -2,21 +2,21 @@
 
 ## 📌 Overview
 
-The Face Recommendation System is an AI-powered web application that detects and recognizes faces using OpenCV. It allows user registration, approval, and recognition through a trained face recognition model.
+The Face Recommendation System is an application that uses OpenCV and Flask to detect and recognize human faces. The system allows users to register, stores face data, and recognizes registered users using the Local Binary Patterns Histograms (LBPH) face recognition algorithm.
 
-This project demonstrates the practical implementation of Computer Vision and Machine Learning concepts using Python.
+This project demonstrates the practical application of Computer Vision and Machine Learning concepts using Python.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- Face Detection
-- Face Recognition
+- Face Detection using OpenCV
+- Face Recognition using LBPH Algorithm
 - User Registration
-- Admin Approval System
+- User Approval System
 - Pending User Management
 - Trained Face Recognition Model
-- Web Interface using Flask
+- Simple Web Interface using Flask
 
 ---
 
@@ -26,7 +26,7 @@ This project demonstrates the practical implementation of Computer Vision and Ma
 - Flask
 - OpenCV
 - NumPy
-- Pickle
+- Pillow
 - HTML
 - CSS
 - JavaScript
@@ -53,25 +53,25 @@ FACE-RECOMMENDATION/
 
 ## ⚙️ Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Karan1926/FACE-RECOMMENDATION.git
 ```
 
-Go to project folder
+### Move into the project directory
 
 ```bash
 cd FACE-RECOMMENDATION
 ```
 
-Install dependencies
+### Install the required packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+### Run the application
 
 ```bash
 python app.py
@@ -81,7 +81,7 @@ python app.py
 
 ## 📁 Dataset
 
-The dataset is **not included** in this repository due to its size.
+The dataset is **not included** in this repository because of its size.
 
 Create a folder named:
 
@@ -89,28 +89,16 @@ Create a folder named:
 dataset/
 ```
 
-and place the required images inside it before training or running the project.
+and place your training images inside it before running the application.
 
 ---
 
-## 📸 Screenshots
+## 🔮 Future Improvements
 
-Add screenshots of:
-
-- Home Page
-- Registration Page
-- Face Detection
-- Face Recognition Result
-
----
-
-## 🎯 Future Improvements
-
-- Face Mask Detection
-- Attendance Management
-- Database Integration
-- Real-time Recognition
-- Deep Learning Models (FaceNet)
+- Database Integration (MySQL/MongoDB)
+- Attendance Management System
+- Deep Learning-based Face Recognition (FaceNet)
+- Real-time Camera Optimization
 
 ---
 
@@ -122,9 +110,8 @@ B.Tech CSE (Artificial Intelligence & Machine Learning)
 
 UIET, Kurukshetra University
 
-GitHub:
-https://github.com/Karan1926
+GitHub: https://github.com/Karan1926
 
 ---
 
-⭐ If you like this project, don't forget to star the repository.
+⭐ If you found this project useful, please consider giving it a star.
